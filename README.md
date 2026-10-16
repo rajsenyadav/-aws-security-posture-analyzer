@@ -1,4 +1,6 @@
-# AWS Cloud Security Compliance Checker
+﻿# AWS Cloud Security Compliance Checker
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/downloads/)
 
 ## **Overview**
 
@@ -15,7 +17,7 @@ Welcome to the **AWS Cloud Security Compliance Checker**! This project is design
 
 ---
 
-## 📸 **Live Demo & Screenshots**
+## ðŸ“¸ **Live Demo & Screenshots**
 
 
 
@@ -80,7 +82,7 @@ These intentional flaws help demonstrate the tool's ability to detect and report
 ## **Setting Up Your Development Environment in VS Code**
 
 ### **1. Install Visual Studio Code**
-If you don’t have VS Code, download and install it from [here](https://code.visualstudio.com/).
+If you donâ€™t have VS Code, download and install it from [here](https://code.visualstudio.com/).
 
 ### **2. Clone the Repository**
 Open a terminal in VS Code (<kbd>Ctrl</kbd>+<kbd>`</kbd>) and run:
@@ -129,7 +131,7 @@ Install the AWS CLI ([instructions](https://docs.aws.amazon.com/cli/latest/userg
 ```
 aws configure
 ```
-You’ll need to provide:
+Youâ€™ll need to provide:
 - AWS Access Key ID
 - AWS Secret Access Key
 - Default region (e.g., `eu-north-1`)
@@ -182,7 +184,7 @@ It will launch a local web server (typically at `http://localhost:8501`). Open t
 - Sensitive data (credentials, resource IDs) is excluded via `.gitignore`.
 
 ### **2. Environment Variables in Streamlit Cloud**
-- AWS credentials and resource IDs are stored as environment variables in Streamlit Cloud’s **Settings**:
+- AWS credentials and resource IDs are stored as environment variables in Streamlit Cloudâ€™s **Settings**:
   - `AWS_ACCESS_KEY_ID`
   - `AWS_SECRET_ACCESS_KEY`
   - `AWS_VPC_ID`
@@ -208,16 +210,16 @@ It will launch a local web server (typically at `http://localhost:8501`). Open t
 
 ```
 -aws-security-posture-analyzer/
-│-- assets/
-│   └── screenshots/  # Live demo and report photos
-│-- .gitignore        # Keeps sensitive files out of Git
-│-- .env              # AWS resource IDs (not in this repo)
-│-- requirements.txt  # List of Python dependencies
-│-- README.md         # Project documentation (this file)
-│-- checker.py        # The scanner script
-│-- streamlit.py      # The dashboard code
-│-- venv/             # Virtual env (not in this repo)
-│-- __pycache__/      # Compiled Python files (ignored)
+â”‚-- assets/
+â”‚   â””â”€â”€ screenshots/  # Live demo and report photos
+â”‚-- .gitignore        # Keeps sensitive files out of Git
+â”‚-- .env              # AWS resource IDs (not in this repo)
+â”‚-- requirements.txt  # List of Python dependencies
+â”‚-- README.md         # Project documentation (this file)
+â”‚-- checker.py        # The scanner script
+â”‚-- streamlit.py      # The dashboard code
+â”‚-- venv/             # Virtual env (not in this repo)
+â”‚-- __pycache__/      # Compiled Python files (ignored)
 ```
 
 ---
